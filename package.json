@@ -1,0 +1,16 @@
+{
+  "name": "claude-puppeteer-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ask-claude.js",
+    "claude": "node ask-claude.js",
+    "chatgpt": "node ask-chatgpt.js",
+    "gemini": "node ask-gemini.js",
+    "perplexity": "node ask-perplexity.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
